@@ -51,7 +51,9 @@ padding: 20px 0;
 }
 
 a { color: blue; font-size: 16px; text-decoration: none; } 
-   
+
+a:hover { color: red;}
+
 body { background-color: #000000; font-family:georgia; color:white; }
     
 /* element centers content*/
