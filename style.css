@@ -141,8 +141,4 @@ letter-spacing: 1px;
 text-align: center;
 }
 
-.copyright {
-padding-left: 160px
-}
-
-.list-item { text-align: right } 
+.copyright { text-align: center; }
