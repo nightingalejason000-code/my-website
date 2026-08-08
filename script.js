@@ -10,8 +10,7 @@ let volume = (9 * 5 * 2);
 let age_1 = (15);
 let age = (18);
 let like_to_read = true;
-const pi = 3.14;
-const birth_year = 2011
+const pi = 3.14;3const birth_year = 2011
 
 // lne 5 v
 console.log(fav_hobb)
