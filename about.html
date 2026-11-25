@@ -4,7 +4,7 @@
 
     <head> 
         <title>My Website-About</title> 
-        <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
@@ -17,10 +17,12 @@
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-        </nav>    
+        </nav>
+        
+    <!-- <button id="theme-toggle">Toggle Dark Mode</button> -->
 
 <main>
-
+    
 <section>
 
     <h2 class="h2_styling">About Me</h2>
@@ -53,6 +55,7 @@
                 <li>Destiny 2</li>
                 <li>Grounded 1</li>
                 <li>Age of Empires 2</li>
+                <li>Crimson Desert</li>
             </ul>
         </li> 
     </ul> 
@@ -99,7 +102,23 @@
         </figure> 
     </div>
 
+            <!--Crimson Desert element-->
+    <div>
+        <figure>
+            <a href="https://crimsondesert.fandom.com/wiki/Crimson_Desert_Wiki">
+            <img src="images/crim_des.jpg" alt="A picture of the homepage of Crimson Desert" width="450" height="400">    
+            </a>
+            <figcaption>Click this image to learn more about Crimson Desert</figcaption>
+        </figure>
+    </div>
+
 </div>
+
+    <form id="contact-form">
+        <input type="text" id="name-input" placeholder="your name">
+        <button type="submit">Send</button> 
+    </form>
+    <p id="form-message"></p>
 
     <footer>
         <a href="mailto:jason.p_nightingale@outlook.com">Email me</a>
