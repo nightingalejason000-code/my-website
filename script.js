@@ -107,6 +107,14 @@ const birth_year = 2011;
 //     console.log(scoreCounter(9, 8));
 //     console.log(scoreCounter(1, 15));
 
+//nav script
+const menuBtn = document.querySelector("#menu-btn");
+const navLinks = document.querySelector("#nav-links");
+
+menuBtn.addEventListener("click", function() {
+    navLinks.classList.toggle("open");
+});
+
 //form scripts
 const form = document.querySelector("#contact-form");
 const nameInput = document.querySelector("#name-input");
